@@ -19,7 +19,22 @@
     -webkit-text-stroke-width: 4px;
     -webkit-text-stroke-color: black;
   }
+/* Videos */
 
+.videoHeader {
+  color: white;
+  text-align: center;
+}
+
+.videoHighlights {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
   
   li a {
     width: 303.5px;
