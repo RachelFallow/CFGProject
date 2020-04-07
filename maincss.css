@@ -1,57 +1,103 @@
-/* Container holding the image and the text */
+* Container holding the image and the text */
 .container {
     margin: 0px;
     position: relative;
     text-align: center;
-    color: gold;
+    color: white;
+    display: grid;
+    height: 100%;
   }
- 
   /* Centered text */
   .centered {
     position: absolute;
     width: 80%;
     font-size: 200px;
     font-weight: bolder;
-    font-family: 'Arvo', serif;
+    font-family: 'Poppins', sans-serif;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    -webkit-text-stroke-width: 4px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke: 3px black;
   }
-
   body{
-   background-color: red;
+   background-color: black;
   }
   ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: red;
+    background-color: black;
     height: 70px;
     width: 100%;
   }
-  
   li {
     float: left;
   }
-  
   li a {
     width: 281px;
-    font-family: 'Arvo', serif;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     height: 70px;
     padding-top: 20px;
     display: block;
-    color: black;
+    color:white;
     text-decoration: none;
     font-size: larger;
     font-weight: bolder;
     justify-content: space-around;
   }
-  
   /* Change the link color to #111 (black) on hover */
   li a:hover {
     background-color: gold;
+  }
+/*------Page 2------*/
+  .header2 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+  font-family: 'Poppins', sans-serif;
+  }
+  /* Football */
+  .footballTitle {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding-left: 30px;
+  }
+  .footballCarousel {
+    display: flex;
+    justify-content: center;
+    max-width: 40;
+    max-height: auto;
+    padding-left: 30px;
+    padding-right: 40px;
+  }
+/* Volleyball */
+  .volleyballTitle {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding-left: 30px;
+  }
+  .volleyballCarousel {
+    display: flex;
+    justify-content: center;
+    max-width: 40;
+    max-height: auto;
+    padding-left: 30px;
+    padding-right: 40px;
+  }
+  /*Cricket*/
+  .cricketTitle {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding-left: 30px;
+  }
+  .cricketCarousel {
+    display: flex;
+    justify-content: center;
+    max-width: 40;
+    max-height: auto;
+    padding-left: 30px;
+    padding-right: 40px;
   }
