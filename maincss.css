@@ -42,7 +42,7 @@
 
   /*-----Main page------*/
 
-}
+
 body{
  background-color: black;
 }
@@ -55,6 +55,7 @@ ul {
   height: 70px;
   width: 100%;
 }
+
 li {
   float: left;
 }
